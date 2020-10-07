@@ -43,7 +43,7 @@ do
          then
             for i in `seq $ITER`
                do
-                  ./ftalat $startFreq $testFreq >> ${OUTPUT_DIR}/${OUTPUT_FILE}"_"${startFreq}"-"${testFreq}${OUTPUT_EXT}
+                  ./ftalat_dcm $startFreq $testFreq >> ${OUTPUT_DIR}/${OUTPUT_FILE}"_"${startFreq}"-"${testFreq}${OUTPUT_EXT}
                  echo "############################" >> ${OUTPUT_DIR}/${OUTPUT_FILE}"_"${startFreq}"-"${testFreq}${OUTPUT_EXT}
             done
          fi
